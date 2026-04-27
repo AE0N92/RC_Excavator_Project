@@ -1,0 +1,22 @@
+This is how i built the internet controlled RC Excavator;
+
+#####Initial inspection~
+- Played with it for a bit (obviously)
+- Took photos
+- Opened excavator, looked at components
+- Identified power, radio and controller circuitry
+- Took photos
+- Put back together
+
+#####First modification~
+- Added FPV system, VTX can take 2-6s so direct soldered onto power in(2s). Camera was powered via VTX.
+- Used analogue FPV goggles to get good camera position and played with it for a bit
+- Plugged in ROTG02 into PC and used ffmpeg to output to a websocket on the Remocon.tv website
+
+#####Second modification~
+- Added the Raspi into the mix, gave it power via a 5v BEC
+- Grounded Pi to main component board (for signal path around BEC)
+- Now came the coding, of which i had no idea how to code. With a lot of help from Remocon.tv, i managed to figure it out;
+- Created a excavator_controls.py file on the raspi that connected to a websocket on remocon.tv and output signals on GPIO pins based on keys pressed in the websocket
+- I decided on which GPIO pins i'm using and started connecting the wires to the main component board of the RC Excavator
+- After a few tweaks to the excavator_controls.py file initial testing was successful
