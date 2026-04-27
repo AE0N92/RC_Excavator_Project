@@ -1,0 +1,13 @@
+This is a list of components used;
+
+Toy RC Excavator (KoLegend 1:14 3x attachments model)
+Raspberrypi Zero 2 Wireless (v1)
+Analog camera (Runcam naked-eagle)
+Analog Video Transmitter (ChaosVTX1.2)
+5.8Ghz RHCP antenna (TrueRC)
+x20 3.3v LED bar (from a broken solar light)
+5v electronics fan (to keep the inside cool)
+x8 limit switches (first ones i found on amazon, rated 250v 10a which is way above what i need)
+x8 1N4001 diodes (first ones i found on amazon, rated 50v 30a surge, but normal operation will see 8v <1A)
+x4 18650 battery cell holders (Just the generic holders, some wires soldered to make it a 2s2p)
+aaaand x2 googly eyes
